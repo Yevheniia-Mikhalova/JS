@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="slider-wrapper">
+      <div class="img-container">
+        <button class="g-button prev" onclick="prev()"><</button>
+        <button class="g-button next" onclick="next()">></button>
+        <img
+          class="img-block"
+          src="https://motor.ru/thumb/1500x0/filters:quality(75):no_upscale()/imgs/2022/01/27/11/5197968/f7aba1d92862152a77a6fcf637d2ea171e1defe8.jpg"
+          id="main-img"
+        />
+      </div>
+
+      <div class="dot-wrapper">
+        <button id="dot1" class="dot-btn active" onclick="changeImg(1)"></button>
+        <button id="dot2" class="dot-btn" onclick="changeImg(2)"></button>
+        <button id="dot3" class="dot-btn" onclick="changeImg(3)"></button>
+        <button id="dot4" class="dot-btn" onclick="changeImg(4)"></button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
