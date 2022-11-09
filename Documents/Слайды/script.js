@@ -21,7 +21,7 @@ function changeImg(imgName) {
   }
 
   if (imgName === 4) {
-    mainImgEl.scr = img4;
+    mainImgEl.src = img4;
   }
   
   currentImgName = imgName;
