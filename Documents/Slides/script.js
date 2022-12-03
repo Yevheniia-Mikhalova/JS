@@ -49,3 +49,4 @@ function changeActive() {
   }
   dots[currentIndex].classList.add("active");
 }
+
