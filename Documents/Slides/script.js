@@ -44,8 +44,8 @@ function changeActive() {
   const dotsEl = document.getElementById("dot-list");
   dotsEl.classList.remove("active");
 
-  if( === [0]){
-    dotEl.classList.add("active");
+  if ( currentIndex === [0]){
+    dots[i].classList.add("active");
   }
   dots[currentIndex].classList.add("active");
 }
